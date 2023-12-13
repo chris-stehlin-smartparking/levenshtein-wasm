@@ -2,8 +2,8 @@
   "name": "levenshtein-wasm",
   "version": "1.2.0",
   "description": "Lightning-fast Wasm-compiled levenshtein library.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "prepublishOnly": "yarn build:production",
     "asbuild:untouched": "asc assembly/index.ts -b build/untouched.wasm -t build/untouched.wat --sourceMap --validate --debug",
